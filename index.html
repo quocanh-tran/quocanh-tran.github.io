@@ -2,24 +2,56 @@
 <head>
 <meta name="keywords" content="anh tran, uic, math">
 <title>Anh Tran - University of Illinois, Chicago</title>
+<style>
+  .intro-wrap {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+  }
+  .profile-pic {
+  width: 288px;     /* 1.6x of 180px */
+  max-width: 42vw;  /* keeps it reasonable on narrower windows */
+  height: auto;
+  border-radius: 12px;
+}
+
+  /* Mobile-friendly: stack image on top */
+  @media (max-width: 700px) {
+    .intro-wrap { flex-direction: column; }
+    .profile-pic { width: 240px; }
+  }
+</style>
+
 </head>
 
 <body>
 <h1> (Quoc-)Anh Tran</h1>
-<p> I am a fourth-year PhD student working with <a href="https://benjamin-bakker.github.io/"> Ben Bakker</a>. My broad interest is Algebraic Geometry. More specifically, I'm thinking about how Hodge and twistor structures interact with deformation theory of flat connections, and correspondingly of Higgs bundles.
-	<br>
-	Here is my <a href="docs/CV/resume.pdf">CV</a>.
-	<br>
-	<br>
-	During 2024-2025, I organized a reading group on Kobayashi's Differential Geometry of Complex Vector Bundles and another on <a href="K3.html">moduli of K3 surfaces</a>. I was also a co-organizer for the Graduate Algebraic Geometry Seminar.
-</p>
+<div class="intro-wrap">
+  <img src="imgs/artinstitute.jpg" class="profile-pic" alt="Anh Tran">
+  <div>
+    <p>
+      I am a fourth-year PhD student working with
+      <a href="https://benjamin-bakker.github.io/">Ben Bakker</a>.
+      My broad interest is Algebraic Geometry. More specifically, I'm thinking about how
+      Hodge and twistor structures interact with deformation theory of flat connections,
+      and correspondingly of Higgs bundles.
+      <br>
+      Here is my <a href="docs/CV/resume.pdf">CV</a>.
+      <br><br>
+      During 2024-2025, I organized a reading group on Kobayashi's Differential Geometry
+      of Complex Vector Bundles and another on <a href="K3.html">moduli of K3 surfaces</a>.
+      I was also a co-organizer for the Graduate Algebraic Geometry Seminar.
+    </p>
 
-<h2> Contacts</h2>
-<p>
-<b>Office:</b> SEO 733, 851 S Morgan St, Chicago, IL 60607
-<br>
-<b>Email:</b> atran58 (at) uic (dot) edu
-</p>
+    <h2>Contacts</h2>
+    <p>
+      <b>Office:</b> SEO 733, 851 S Morgan St, Chicago, IL 60607
+      <br>
+      <b>Email:</b> atran58 (at) uic (dot) edu
+    </p>
+  </div>
+</div>
+
 
 <h2> Notes </h2>
 <p> These informal notes were made for talks, as I started learning the topics, so any originality lies in errors!
